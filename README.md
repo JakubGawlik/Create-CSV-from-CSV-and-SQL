@@ -1,3 +1,3 @@
 # CreateCSVFromCSVAndSQL
 
-Application creates new.CSV file from existing data.csv using world.sql database.
+Application creates new.csv file from existing data.csv using world.sql database.
