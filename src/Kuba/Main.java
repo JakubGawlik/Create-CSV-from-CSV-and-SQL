@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) throws IOException, SQLException, ClassNotFoundException {
 
 /*
-        Application creates new.CSV file from existing data.csv and is using world.sql database.
+        Application creates new.CSV file from existing data.csv using world.sql database.
 */
 
         // 1.Creating list of <Obiekt>
@@ -89,7 +89,7 @@ public class Main {
 
             String url = "jdbc:mysql://localhost:3306/world";
             String uname = "root";
-            String pass = "Matematyka1";
+            String pass = "";
 
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(url, uname, pass);
